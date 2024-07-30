@@ -1,5 +1,5 @@
 {
-    "name": "express-directory-router",
+    "name": "@ethan-davies/express-directory-router",
     "version": "1.0.0",
     "description": "Automatically load endpoints from a specified directory",
     "main": "dist/index.js",

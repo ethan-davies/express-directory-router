@@ -1,0 +1,35 @@
+{
+    "name": "express-directory-router",
+    "version": "1.0.0",
+    "description": "Automatically load endpoints from a specified directory",
+    "main": "dist/index.js",
+    "type": "module",
+    "scripts": {
+        "build": "tsc",
+        "start": "node .",
+        "format": "prettier --write ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ethan-davies/express-directory-router.git"
+    },
+    "keywords": [
+        "express",
+        "router"
+    ],
+    "author": "Ethan Davies <contact@ethandavies.co.uk>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ethan-davies/express-directory-router/issues"
+    },
+    "homepage": "https://github.com/ethan-davies/express-directory-router#readme",
+    "devDependencies": {
+        "@types/express": "^4.17.21",
+        "@types/node": "^22.0.0",
+        "prettier": "^3.3.3",
+        "typescript": "^5.5.4"
+    },
+    "dependencies": {
+        "express": "^4.19.2"
+    }
+}

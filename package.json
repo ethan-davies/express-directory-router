@@ -1,12 +1,11 @@
 {
     "name": "@ethan-davies/express-directory-router",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "Automatically load endpoints from a specified directory",
     "main": "dist/index.js",
-    "type": "module",
+    "types": "dist/index.d.ts",
     "scripts": {
         "build": "tsc",
-        "start": "node .",
         "format": "prettier --write ."
     },
     "repository": {

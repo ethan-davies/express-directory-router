@@ -2,8 +2,10 @@
     "compilerOptions": {
         "target": "ES2022",
         "module": "CommonJS",
+        "esModuleInterop": true,
+        "noUncheckedIndexedAccess": true,
         "outDir": "dist",
-        "esModuleInterop": true
+        "declaration": true
     },
     "include": ["lib"],
     "exclude": ["node_modules"]
